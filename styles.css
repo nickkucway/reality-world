@@ -105,4 +105,11 @@ min-width: 600px;
     bottom: 5px;
 }
 
+@media(max-width: 500px){
+    iframe{
+      max-width: 350px;
+      margin: 5px auto;
+    }
+  }
+
 
