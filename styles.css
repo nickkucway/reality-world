@@ -89,21 +89,20 @@ ol li{
 }
 #graphics{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#graphics iframe{
-margin-bottom: 5px;
+#graphics div{
+min-width: 600px;
+
+
 }
 
 .contact{
     position:absolute;
     bottom: 5px;
 }
-.illustration-gallery{
-    display: flex;
-}
-.illustration-gallery img{
-    max-width: 25vh;
-}
+
 
